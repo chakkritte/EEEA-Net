@@ -1,0 +1,17 @@
+pretrained_paths = {
+    'pairnas': "PairNAS_CIFAR10_ImageNet_weight.pth",
+    'darts': 'DARTS_CIFAR10_ImageNet_weight.pth',
+    'nasnet': 'nasnetamobile-7e03cead.pth',
+    'mnasnet': 'mnasnet1.0_top1_73.512-f206786ef8.pth',
+    'mobilenetv2': 'mobilenet_v2-b0353104.pth',
+    'shufflenetv2': 'shufflenetv2_x1-5666bf0f80.pth',
+    'resnet18': 'resnet18-5c106cde.pth',
+    'moea': 'MOEA_c8.pt',
+    'moea_sota': 'MOEA_SOTA_c8.pt',
+    'moea16': 'MOEA_c16.pt',
+    'moea_sota12': 'MOEA_SOTA_c12.pt',
+    'eeeal': 'EEEAL.pt',
+    'nsgac1': 'net-flops@137',
+    'nsgac2': 'net-flops@217',
+    'mobilenetv3': 'mobilenetv3-large-1cd25616.pth',
+}

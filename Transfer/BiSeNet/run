@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1,0 python -m torch.distributed.launch --nproc_per_node=2 train.py --net mobilenetv3 --dataset_path datasets
+
