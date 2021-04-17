@@ -1,0 +1,1 @@
+python search_space.py --objective multi --selection tournament --seed 5 --generations 10 --population 100 --search ee --th_param 0.3

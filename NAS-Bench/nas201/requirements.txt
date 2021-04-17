@@ -1,0 +1,9 @@
+tqdm
+numpy
+tensorboard_logger
+tinydb
+lmdb
+pyarrow
+torch
+torchvision
+git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
