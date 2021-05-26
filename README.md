@@ -18,3 +18,7 @@ TBA
 ## Citation
 
 TBA
+
+## License 
+
+Apache-2.0 License
