@@ -18,6 +18,11 @@ This implementation of EEEA-Net (Early Exit Evolutionary Algorithm Network) from
   <img src="img/result_imagenet.JPG" alt="imagenet">
 </p>
 
+## Prerequisite for server
+ - Tested on Ubuntu OS version 18.04.x
+ - Tested on PyTorch 1.6 and TorchVision 0.7.0
+
+
 ## Usage
 
 ### Cloning source code
