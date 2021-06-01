@@ -20,12 +20,52 @@ This implementation of EEEA-Net (Early Exit Evolutionary Algorithm Network) from
 
 ## Usage
 
-TBA
+### Cloning source code
+
+```
+git clone https://github.com/chakkritte/EEEA-Net/
+cd EEEA-Net/cifar
+```
+
+### Install Requirements
+
+```
+pip install -r requirements.txt
+```
+
+### Architecture search on CIFAR-10 (Normal search)
+
+```
+python search_space.py --dataset cifar10 --search normal --th_param 0.0 
+```
+
+### Architecture search on CIFAR-10 (Early Exit search with beta equal 5)
+
+```
+python search_space.py --dataset cifar10 --search ee --th_param 5.0 
+```
+
+### Architecture evaluation on CIFAR-10 
+
+```
+python train_cifar.py --arch [name]
+```
+
+#### *[name] is mean a name of model
+
+### Architecture evaluation on ImageNet
+```
+python train_imagenet.py --arch [name]
+```
+
+#### *[name] is mean a name of model
 
 ## Citation
 
+If you use EEEA-Net or any part of this research, please cite our paper:
+```
 TBA
-
+```
 ## License 
 
 Apache-2.0 License
