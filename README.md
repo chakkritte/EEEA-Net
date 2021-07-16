@@ -29,7 +29,7 @@ This implementation of EEEA-Net (Early Exit Evolutionary Algorithm Network) from
 
 ```
 git clone https://github.com/chakkritte/EEEA-Net/
-cd EEEA-Net/cifar
+cd EEEA-Net/EEEA/cifar
 ```
 
 ### Install Requirements
