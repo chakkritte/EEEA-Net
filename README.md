@@ -56,14 +56,14 @@ python search_space.py --dataset cifar10 --search ee --th_param 5.0
 python train_cifar.py --arch [name]
 ```
 
-#### *[name] is mean a name of model
+#### *[name] is mean a name of models [EA, EEEA_A, EEEA_B, EEEA_C]
 
 ### Architecture evaluation on ImageNet
 ```
 python train_imagenet.py --arch [name]
 ```
 
-#### *[name] is mean a name of model
+#### *[name] is mean a name of models [EA, EEEA_A, EEEA_B, EEEA_C]
 
 ## Citation
 
