@@ -23,6 +23,24 @@ This implementation of EEEA-Net (Early Exit Evolutionary Algorithm Network) from
  - Tested on PyTorch 1.6 and TorchVision 0.7.0
 
 
+## Quick Usage (EEEA-Net, ImageNet pre-trained)
+
+#### install darmo package
+```
+pip install darmo
+```
+
+#### import darmo and create model; see more models at [darmo](https://github.com/jitdee-ai/darmo)
+```
+import darmo
+model = darmo.create_model("eeea_c2", num_classes=1000, pretrained=True)
+```
+
+#### supported transfer learning
+```
+model.reset_classifier(num_classes=100, dropout=0.2)
+```
+
 ## Usage
 
 ### Cloning source code
@@ -58,12 +76,6 @@ python train_cifar.py --arch [name]
 
 #### *[name] is mean a name of models [EA, EEEA_A, EEEA_B, EEEA_C]
 
-### Architecture evaluation on ImageNet
-```
-python train_imagenet.py --arch [name]
-```
-
-#### *[name] is mean a name of models [EA, EEEA_A, EEEA_B, EEEA_C]
 
 ## Citation
 
