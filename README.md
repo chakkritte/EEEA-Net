@@ -1,7 +1,7 @@
 
 # [EEEA-Net: An Early Exit Evolutionary Neural Architecture Search](https://www.sciencedirect.com/science/article/pii/S0952197621002451)
 
-**This paper has been accepted to Engineering Applications of Artificial Intelligence.**
+**This paper has been published to Engineering Applications of Artificial Intelligence.**
 
 This implementation of EEEA-Net (Early Exit Evolutionary Algorithm Network) from EEEA-Net: An Early Exit Evolutionary Neural Architecture Search by [Chakkrit Termritthikun](https://chakkritte.github.io/cv/), et al.
 
