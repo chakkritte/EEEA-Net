@@ -294,32 +294,14 @@ def main():
 
     logging.info("args = %s", args)
 
-    primitives_eeea = [
+    primitives = [
     'max_pool_3x3', 'avg_pool_3x3', 
     'skip_connect', 'sep_conv_3x3', 
     'sep_conv_5x5', 'dil_conv_3x3', 
     'dil_conv_5x5', 'conv_7x1_1x7',
     'inv_res_3x3', 'inv_res_5x5', 
-    'inv_res_3x3_sh', 'inv_res_5x5_sh', 
-    'std_gn_3x3', 'std_gn_5x5',
-    #'std_gn_7x7',
-    'mbconv_k3_t1', 'mbconv_k5_t1',
-    #'mbconv_k7_t1'
-    #'conv_1x1_3x3', 'conv_3x1_1x3',
-    'blur_pool_3x3'
     ]
-
-    primitives = [
-    #'none',
-    'max_pool_3x3',
-    'avg_pool_3x3',
-    'skip_connect',
-    'sep_conv_3x3',
-    'sep_conv_5x5',
-    'dil_conv_3x3',
-    'dil_conv_5x5'
-    ]
-
+    
     nas_setup = nasnet_setup.setup_NAS(args.n_blocks,len(primitives))
 
     nn_param_choices = nasnet_setup.create_param_choices(primitives, nas_setup)
