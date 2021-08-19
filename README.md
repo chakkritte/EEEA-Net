@@ -1,6 +1,12 @@
 
 # EEEA-Net: An Early Exit Evolutionary Neural Architecture Search
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eeea-net-an-early-exit-evolutionary-neural/neural-architecture-search-on-cifar-10)](https://paperswithcode.com/sota/neural-architecture-search-on-cifar-10?p=eeea-net-an-early-exit-evolutionary-neural)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eeea-net-an-early-exit-evolutionary-neural/object-detection-on-pascal-voc-2007)](https://paperswithcode.com/sota/object-detection-on-pascal-voc-2007?p=eeea-net-an-early-exit-evolutionary-neural)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eeea-net-an-early-exit-evolutionary-neural/semantic-segmentation-on-cityscapes-val)](https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val?p=eeea-net-an-early-exit-evolutionary-neural)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eeea-net-an-early-exit-evolutionary-neural/neural-architecture-search-on-imagenet)](https://paperswithcode.com/sota/neural-architecture-search-on-imagenet?p=eeea-net-an-early-exit-evolutionary-neural)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eeea-net-an-early-exit-evolutionary-neural/image-classification-on-cifar-100)](https://paperswithcode.com/sota/image-classification-on-cifar-100?p=eeea-net-an-early-exit-evolutionary-neural)
+
 **This paper has been published to Engineering Applications of Artificial Intelligence.**
 
 Paper: [EAAI version](https://www.sciencedirect.com/science/article/pii/S0952197621002451) or [arXiv version](https://arxiv.org/pdf/2108.06156.pdf)
