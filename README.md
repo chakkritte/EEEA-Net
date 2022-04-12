@@ -89,14 +89,15 @@ python train_cifar.py --arch [name]
 
 If you use EEEA-Net or any part of this research, please cite our paper:
 ```
-  @article{termritthikun2021EEEANet,
-  title = "{EEEA-Net: An Early Exit Evolutionary Neural Architecture Search}",
-  journal = {Engineering Applications of Artificial Intelligence},
-  volume = {104},
-  pages = {104397},
-  year = {2021},
-  author = {Chakkrit Termritthikun and Yeshi Jamtsho and Jirarat Ieamsaard and Paisarn Muneesawang and Ivan Lee},
-  }
+@article{termritthikun2021eeea,
+  title="{EEEA-Net: An Early Exit Evolutionary Neural Architecture Search}",
+  author={Termritthikun, Chakkrit and Jamtsho, Yeshi and Ieamsaard, Jirarat and Muneesawang, Paisarn and Lee, Ivan},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={104},
+  pages={104397},
+  year={2021},
+  publisher={Elsevier}
+}
 ```
 ## License 
 
